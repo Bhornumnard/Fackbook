@@ -6,3 +6,7 @@
   width: 1012px;
   margin: auto auto;
 }
+
+input:focus {
+    outline: none;
+}
