@@ -6,6 +6,7 @@ import Homepage from './Homepage/Homepage'
 
 function App() {
   return (
+
     <Switch>
       <Route exact path="/" component={SignUp}/>
       <Route path="/homepage" component={Homepage}/>

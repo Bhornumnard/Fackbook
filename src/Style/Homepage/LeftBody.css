@@ -1,0 +1,51 @@
+.Left {
+    height: 100vh;
+    padding-top: 12px;
+    width: 190px;
+    top: 0px;
+    
+}
+
+.Left .unit{
+    height: 28px;
+    margin-bottom: 10px;
+    padding: 0px 5px 2px 2px;
+    display: inline-block;
+}
+
+.Left img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 2px;
+    position: relative;
+    bottom: 1.5px;
+}
+
+.Left a{
+    color: #1d2129;
+    font-size: 15px;
+
+}
+
+.Left a:hover {
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+    color: #1d2129;
+    display: block;
+    height: 28px;
+}
+.Left a:hover > i {
+    visibility: visible;
+}
+
+.Left a > i {
+    font-size: 15px;
+    vertical-align: baseline;
+    text-indent: 5px;
+    color: #90959c;
+    padding: 5px 5px 5px 0px;
+    height: 28px;
+    visibility: hidden;
+}

@@ -1,0 +1,168 @@
+
+.Nav{
+  height: 43px;
+  width: 100vw;
+  flex-wrap: nowrap;
+  background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
+  direction: ltr;
+  line-height: 1.34;
+}
+.NavCenter {
+  height: 100%;
+}
+.iconBlock {
+  width: 30px;
+}
+
+.facebook {
+  width: 24px;
+  height: 24px;
+}
+
+.facebook:hover{
+  cursor: pointer;
+}
+.searchBlock{
+  min-width: 200px;
+}
+.search {
+  background-color: #fff;
+  border: 1px solid #3b5998;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 26px;
+  width: 450px;
+  min-width: 144px;
+  
+}
+
+.search > input {
+  width: 395px;
+  height: 23px;
+  padding-right: 5px;
+  border: none;
+  margin-left: 7px;
+  color: black;
+  font-family: inherit;
+  font-size: inherit;
+  text-overflow: ellipsis;
+}
+
+input {
+  border: none;
+}
+
+.search > input::placeholder {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.search > button {
+  display: block;
+  float: right;
+  width: 46px;
+  height: 24px;
+  background: #f5f6f7;
+  border: none;
+  bottom: 0;
+  cursor: pointer;
+}
+.search > button > .anticon {
+  color: #4b4f56;
+}
+
+.searchIcon {
+  position: relative;
+  bottom: 3px;
+  font-size: 17px;
+  height: 24px;
+}
+
+.space {
+  min-width: 0px;
+  width: 105px;
+  height: 100%;
+}
+
+.RightIcon {
+    min-width: 428px;
+    width: 428px;
+}
+
+.RightIcon .unit {
+  padding: 0px 12px 1px;
+}
+.RightIcon .unit1 {
+  padding: 0.5px 12px 0px 0px;
+}
+.RightIcon .unit {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  height: 25px;
+}
+.line {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.RightIcon .unit a:hover,
+.RightIcon .unit a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+.RightIcon .unit:hover {
+  background-color: #385898;
+  height: 25px;
+  color: white;
+  border-radius: 3px;
+}
+
+.RightIcon .unit img {
+  min-width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.RightIcon .unit {
+  font-weight: bold;
+}
+
+.NavIcon {
+  padding: 0px 5px 0px 4px;
+  height: 100%;
+  display: inline-block;
+}
+
+.RightIcon i{
+     color: #1a2947;
+    min-width: 24px;
+    height: 24px;
+    
+}
+
+i{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.RightIcon #unitIcon{
+    padding: 0px 6px 0px 6px;
+    background-color: #4267b2;
+}
+.RightIcon #unitIcon i:hover{
+    color:#1C1C1C;
+}
+.RightIcon .firstUnit{
+    margin: 0px 5px;
+}
